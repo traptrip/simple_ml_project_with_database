@@ -1,4 +1,4 @@
-# Simple ML project with CI & CD
+# Simple ML project with CI & CD & MongoDB
 
 Dataset: [humpback-whale-identification](https://www.kaggle.com/competitions/humpback-whale-identification)
 
@@ -34,6 +34,13 @@ Dataset: [humpback-whale-identification](https://www.kaggle.com/competitions/hum
 ```
 
 # Quick start
+
+## Initialize environment variables
+```bash
+sh init_env.sh
+```
+
+
 ## Download dataset
 ### Using dvc
 ```bash
@@ -76,6 +83,9 @@ docker compose up
 
 
 # Assets
+- [Github url](https://github.com/traptrip/simple_ml_project_with_database)
+- [Docker hub image url](https://hub.docker.com/repository/docker/pythondestroyer/simple_ml_project_with_database/general)
+
 ## Pytest local result
 ![](./assets/pytest_result.png)
 
